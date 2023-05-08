@@ -69,7 +69,7 @@
 		<div class="dm-center-div-hero">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_75by35.png">
 			<p class="dm-text-hero">Zali Steggall OAM MP is urgently calling for Australia to commit to a minimum 75% emissions reduction by 2035. To meet the Paris Agreement goal of limiting global warming to 1.5C, host a COP Summit and emerge as a leader in climate action, Australia needs to match our ambition to our international peers and accelerate emissions reduction.</p>
-			<p><a href="https://www.zalisteggall.com.au/climate" class="btn dm-btn-hero"><span>Sign up</span> to show your support </a></p>
+			<p><a href="https://www.zalisteggall.com.au/climate" class="btn dm-btn-hero"><span>Sign up</span> to show your support test </a></p>
 		</div>
 	<video id="dm-hero-div" loop preload='none' autoplay muted width="100%" poster="<?php echo $hero_video_poster_image_hero; ?>">
 			<source id="mp4" src="https://wordpress-990078-3504131.cloudwaysapps.com/wp-content/uploads/2023/05/Brains_Naidoc_Video02_V3_720p.mp4" type='video/mp4' />
