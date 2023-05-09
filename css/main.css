@@ -573,7 +573,8 @@ align-self: center;
 }
 
 .support-intro {
-    background: #0D3A4D;
+   /* background: #0D3A4D;*/
+   background: rgba(155, 206, 217, 1);
     color: #fff;
     text-align: center;
 }
@@ -1483,4 +1484,42 @@ blockquote{ color: #fff;}
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center !important;
+}
+
+.dm-text-center-emissions-footer{
+    text-align: center;
+    margin-top: 40px;
+}
+.dm-text-center-emissions-footer p{
+    padding-bottom: 0;
+    font-size: 14px;
+    color: #0D3A4D;
+    font-weight: 700;
+}
+.dm-text-center-emissions-footer p a{
+    color: #0D3A4D;
+    text-decoration: underline;
+}
+
+
+/*******************   SECTION HOW  *******************/
+
+.panel.ca_how{
+    background-color: #9BCED9;
+}
+.dm-section{
+    text-align: center;
+    width: 100%;
+}
+.dm-section h2{
+    color: #0D3A4D;
+    text-align: center;
+}
+
+.dm-section p{
+    color: #0D3A4D;
+    text-align: center;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }

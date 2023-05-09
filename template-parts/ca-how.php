@@ -1,7 +1,10 @@
 <div class="panel ca_how">
 	<div class="wrap">
 		<div class="grid header">
-			<h2><?php echo get_field('ca_how_heading'); ?></h2>	
+			<div class="dm-section">
+				<h2><?php echo get_field('ca_how_heading'); ?></h2>
+				<p>Clear ambition and plans for each sector aligned with a target of 75 by 35, will deliver jobs and growth across the whole Australian economy.</p>
+			</div>
 					<?php 
 				$link = get_field('ca_how_cta');
 				if( $link ): 
@@ -16,7 +19,7 @@
 		<?php if( have_rows('hover_blocks') ): ?>
 			<div class="grid min">
 			<?php while( have_rows('hover_blocks') ): the_row(); ?>
-				<div class="col-1-4">
+				<div class="col-1-5">
 					<div class="hover-wrap">
 						<div class="hover-pic" style="background-image: url(<?php the_sub_field('hover_block_bg'); ?>)"></div>
 						<div class="hover-hd"><h3><?php the_sub_field('hover_block_heading'); ?></h3></div>

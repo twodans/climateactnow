@@ -196,11 +196,13 @@ padding: 0 20px;}
     position: absolute;
     width: 100%;
     height: 10vw;
-    background: #0D3A4D;
+   /* background: #0D3A4D;*/
+   background: rgba(155, 206, 217, 1);
 	min-height: 140px;
 }
 .support-block {
-    background: #0D3A4D;
+    /*background: #0D3A4D;*/
+	background: #00B4CD;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -216,6 +218,10 @@ padding: 0 20px;}
     height: 70%;
     margin: 20px;
     width: auto;
+}
+
+.support-block p a, .support-block p a:hover{
+	color: #0D3A4D;
 }
 .cols-content {
     padding: 20px;

@@ -23,8 +23,13 @@
         <?php
             }
         } ?>
-            
-            
+
+        </div>
+        <div class="grid">
+            <div class="col-1 dm-text-center-emissions-footer">
+                <p>Total emissions by sector, Jan-March 2022</p>
+                <p>Source: <a href="#" target="_blank" > Department of Climate Change, Energy, the Environment and Water</a></p>
+            </div>
         </div>
     </div>
 </div>

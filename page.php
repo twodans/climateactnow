@@ -27,9 +27,11 @@ get_header();
 			<?php get_template_part( 'template-parts/ca-circles', 'page' ); ?>
 			<?php get_template_part( 'template-parts/ca-how', 'page' ); ?>
 			<?php get_template_part( 'template-parts/ca-help', 'page' ); ?>
-			<?php get_template_part( 'template-parts/ca-committed', 'page' ); ?>
-			<?php get_template_part( 'template-parts/ca-stats', 'page' ); ?>
+			<?php get_template_part( 'template-parts/ca-performance', 'page' ); ?>
+			<!-- <?php get_template_part( 'template-parts/ca-committed', 'page' ); ?> -->
+			
 			<?php get_template_part( 'template-parts/ca-support', 'page' ); ?>
+			<?php get_template_part( 'template-parts/ca-stats', 'page' ); ?>
 			<?php get_template_part( 'template-parts/ca-resources', 'page' ); ?>
 		<?php } else { ?>
 			<?php get_template_part( 'template-parts/content', 'page' ); ?>
