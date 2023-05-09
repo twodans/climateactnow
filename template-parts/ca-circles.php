@@ -1,6 +1,6 @@
 <div class="panel">
     <div class="wrap">
-        <div class="grid">
+        <div class="grid dm-grid">
 
         <?php if( have_rows('emissions_container') ){
             while( have_rows('emissions_container') ){
