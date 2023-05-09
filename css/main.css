@@ -1477,10 +1477,10 @@ blockquote{ color: #fff;}
     margin-top: 20px;
 }
 
-.dm-grid{
+.grid.dm-grid{
     display: flex;
     margin: 0 -20px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center !important;
 }
