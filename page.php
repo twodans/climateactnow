@@ -21,9 +21,10 @@ get_header();
 ?>
 
 			<?php if( is_front_page() ) { ?>
-			<?php get_template_part( 'template-parts/ca-submissions', 'page' ); ?>
+			<!-- <?php get_template_part( 'template-parts/ca-submissions', 'page' ); ?> -->
 			<?php get_template_part( 'template-parts/hero-quote', 'page' ); ?>
-			<?php get_template_part( 'template-parts/ca-what', 'page' ); ?>
+			<!-- <?php get_template_part( 'template-parts/ca-what', 'page' ); ?> -->
+			<?php get_template_part( 'template-parts/ca-circles', 'page' ); ?>
 			<?php get_template_part( 'template-parts/ca-how', 'page' ); ?>
 			<?php get_template_part( 'template-parts/ca-help', 'page' ); ?>
 			<?php get_template_part( 'template-parts/ca-committed', 'page' ); ?>

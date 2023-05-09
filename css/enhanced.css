@@ -110,7 +110,7 @@ padding: 0 20px;}
 }
 .quote figure {
 	padding: 40px;
-    max-width: 700px;
+   /* max-width: 700px;*/
 	font-size: 26px;
 }
 .quote figcaption {

@@ -1,7 +1,7 @@
 <?php if(get_field('quote') != ''): ?>
 <div class="panel quote"  style="background-image: url(<?php echo get_field('quote_bg'); ?>);">
 	<div class="grid nopad">
-		<div class="col-1-2"></div>
+		<div class="col-1-3 col-lg-1-2"></div>
 		<div class="col-1-2">
 			<div class="quote-wrap">
 				<figure>

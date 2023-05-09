@@ -483,7 +483,7 @@ body>.header {
 	padding: 25vh 20px 20px 20px;
 }
 .quote-wrap {
-    background: rgba(255,255,255,0.9);
+    /*background: rgba(255,255,255,0.9);*/
 }
 .quote figure {
     padding: 20px;
@@ -491,13 +491,13 @@ body>.header {
     line-height: 1.4;
 }
 .quote figcaption {
-	color: #00B4CD;
+	color: #0D3A4D;
     font-size: 18px;
     padding-top: 10px;
 }
 .quote blockquote:before {
         content: '';
-    background: url(../images/quote.png) no-repeat;
+    background: url(../images/quote2.png) no-repeat;
     background-size: contain;
 	width: 35px;
     height: 25px;
@@ -1343,7 +1343,8 @@ video#dm-hero-div {
 
 .dm-hero {
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
+    background-color: #00B4CD; 
  }
 
 .dm-center-div-hero {
@@ -1353,7 +1354,7 @@ video#dm-hero-div {
   transform: translate(-50%, -46%);
   z-index: 9;
   text-align: center;
-  
+  padding: 0 8%;
 }
 
 .dm-container-text{
@@ -1367,15 +1368,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 }
 
 .dm-center-div-hero p.dm-text-hero{
-    font-weight: 800;
     color: #fff;
-
     /*
     font-size: 26px;
     line-height: 36px;*/
-    font-size: 1.5vw;
-    line-height: 1.9vw;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
 }
+
+.dm-logo-hero{ max-width: 70%;}
 .btn.dm-btn-hero{
     background: #00B4CD;
     padding: 10px 20px;
@@ -1384,4 +1385,94 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 .btn.dm-btn-hero span{
     color: #0D3A4D;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .dm-center-div-hero p.dm-text-hero{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .dm-center-div-hero {
+        padding: 0;
+        width: 90%;
+    }
+    .dm-container-text{
+        padding: 0 15px;
+    }
+    .dm-logo-hero {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 1024px) {
+    .dm-center-div-hero p.dm-text-hero{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .dm-center-div-hero {
+        padding: 0;
+        width: auto;
+    }
+    .dm-container-text{
+        padding: 0 15px;
+    }
+    .dm-logo-hero {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1380px) {
+    .dm-center-div-hero p.dm-text-hero{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .dm-center-div-hero {
+        padding: 0 4%;
+        width: auto;
+    }
+    .dm-container-text{
+        padding: 0 15px;
+    }
+    .dm-logo-hero {
+        max-width: 80%;
+    }
+}
+
+
+/*************  QUOTE SECTION  ********************/
+blockquote{ color: #fff;}
+
+/**************   SECTION CIRCLES  ********************/
+
+.dm-column-circle{ text-align: center;}
+.dm-circle-container{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: #9BCED9;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dm-circle-container p{
+    color: #00B4CD;
+    font-size: 50px;
+}
+
+.dm-center-circle{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dm-sub{
+    color: #0D3A4D;
+    font-size: 24px;
+    margin-top: 20px;
 }
