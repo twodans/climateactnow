@@ -1523,3 +1523,17 @@ blockquote{ color: #fff;}
     margin-left: auto;
     margin-right: auto;
 }
+
+/**************************  SECTION PERFOMANCE   **********************/
+
+.dm-perfomance-left, .dm-perfomance-right{
+    padding: 40px !important;
+    color: #fff;
+    text-align: center;
+}
+.dm-perfomance-left{
+    background-color: #0D3A4D;
+}
+.dm-perfomance-right{
+    background-color: #00B4CD;
+}
