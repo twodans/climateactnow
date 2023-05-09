@@ -73,8 +73,14 @@
 				<p><a href="https://www.zalisteggall.com.au/climate" class="btn dm-btn-hero"><span>Sign up</span> to show your support </a></p>
 			</div>
 		</div>
-	<video id="dm-hero-div" loop preload='none' autoplay muted width="100%" poster="<?php echo $hero_video_poster_image_hero; ?>">
-			<source id="mp4" src="https://wordpress-990078-3504131.cloudwaysapps.com/wp-content/uploads/2023/05/Brains_Naidoc_Video02_V3_720p.mp4" type='video/mp4' />
-			<p>Your user agent does not support the HTML5 Video element.</p>
-		</video> 
+	<?php if(get_field('add_a_video_header')){ 
+		$add_a_video_header = get_field('add_a_video_header');
+		$poster_video 		= get_field('poster_video');
+	?>
+		<video id="dm-hero-div" loop preload='none' autoplay muted width="100%" poster="<?php echo $poster_video; ?>">
+		<source id="mp4" src="<?php echo $add_a_video_header; ?>" type='video/mp4' />
+		<p>Your user agent does not support the HTML5 Video element.</p>
+	</video> 
+	<?php } ?>
+	
 </div>
