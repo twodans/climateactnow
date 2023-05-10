@@ -1,7 +1,9 @@
 <div class="panel">
     <div class="wrap">
-    <h2 class="center">Breakdown of Australia's emissions</h2>
-        <p class="center">Everyday use of electricity and transport, as well as manufacturing, commercial and building use, generates the bulk of Australia's emissions. That's why everyone needs to get involved.</p>
+    <div class="dm-section">
+    <h2>Breakdown of Australia's emissions</h2>
+        <p>Everyday use of electricity and transport, as well as manufacturing, commercial and building use, generates the bulk of Australia's emissions. That's why everyone needs to get involved.</p>
+</div>
         <div class="grid dm-grid">
 
         <?php if( have_rows('emissions_container') ){
