@@ -1578,26 +1578,6 @@
       }
   }
   
-  
-
-  /* da css */
 
 
-  .da-quote{
-    background-color: #00B4CD;
-    padding: 0 !important;
-  }
-
-  .da-quote .quote-wrap{
-    padding: 10% 0;
-  }
-
-  .da-pos-rel{
-    position: relative;
-  }
-
-  .da-profile-img{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
+  /* added text comment */
