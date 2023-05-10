@@ -233,11 +233,17 @@ list-style: none;
 	transition: all .4s .1s;
 }
 
+.btn:after{
+    opacity: 1 !important;
+}
+
 .btn:hover, .wpcf7-submit.button:hover {
 	color:#fff;
 	text-decoration: none;
     
 }
+
+
 .btn:focus {
 	color:#fff;
 }
