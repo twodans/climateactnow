@@ -1,6 +1,6 @@
 <div class="panel ca_resources">
 	<div class="wrap">
-		<div class="resources-intro">
+		<div class="resources-intro" id="research">
 		<h2><?php echo get_field('resources_heading'); ?></h2>
 			<h3><?php echo get_field('resources_sub'); ?></h3>		
 		<?php if( have_rows('resources') ): ?>
