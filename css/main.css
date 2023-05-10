@@ -489,7 +489,7 @@
       padding: 25vh 20px 20px 20px;
   }
   .quote-wrap {
-      /*background: rgba(255,255,255,0.9);*/
+    
   }
   .quote figure {
       padding: 20px;
@@ -1365,12 +1365,12 @@
   }
   
   .dm-container-text{
-      padding: 0 7%;
+      padding: 4% 7%;
   
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.45) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.45) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.45) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
   }
   
@@ -1381,13 +1381,20 @@
       line-height: 36px;*/
       font-size: 1.1vw;
       line-height: 1.5vw;
+      font-weight: 500;
   }
   
-  .dm-logo-hero{ max-width: 70%;}
+  .dm-logo-hero{ max-width: 90%;}
+
   .btn.dm-btn-hero{
       background: #00B4CD;
       padding: 10px 20px;
       color: #fff;
+      text-transform: lowercase !important;
+  }
+
+  .btn.dm-btn-hero span{
+    text-transform: uppercase !important;
   }
   
   .btn.dm-btn-hero span{
@@ -1507,19 +1514,23 @@
       padding-bottom: 0;
       font-size: 14px;
       color: #0D3A4D;
-      font-weight: 700;
+      /* font-weight: 700; */
   }
   .dm-text-center-emissions-footer p a{
       color: #0D3A4D;
       text-decoration: underline;
+      font-weight: 400;
   }
   
   
   /*******************   SECTION HOW  *******************/
   
   .panel.ca_how{
-      background-color: #9BCED9;
+      background-color: #e0f0f3;
+    
   }
+
+ 
   .dm-section{
       text-align: center;
       width: 100%;
@@ -1566,6 +1577,13 @@
   }
   .dm-perfomance-right{
       background-color: #00B4CD;
+  }
+
+
+  /* da css */
+
+  .da-quote{
+    background-color: #00B4CD;
   }
   
 
@@ -1745,3 +1763,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   
 
 
+  /* added text comment */
