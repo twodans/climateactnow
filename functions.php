@@ -119,11 +119,16 @@ add_action( 'widgets_init', 'climateactnow_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
-function climateactnow_scripts() {
 
+
+
+function climateactnow_scripts() {
+	
     wp_enqueue_script('vue', get_template_directory_uri() . '/js/lib/vue/dist/vue.js', null, null, true); // change to vue.min.js for production
     wp_enqueue_script('axios', get_template_directory_uri() . '/js/lib/axios/dist/axios.js', null, null, true); // change to vue.min.js for production
     wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', 'vue', null, true);
+
+	
 
 	wp_enqueue_style( 'climateactnow-style', get_stylesheet_uri() );
 

@@ -104,3 +104,27 @@
 		}
 	}( container ) );
 } )();
+
+
+
+jQuery(document).ready(function ($) {
+
+	$('.basic-waypoint').waypoint(function(direction) {
+		if (direction == 'up') {
+		//$(this).removeClass( ‘fadeInLeft’ ).addClass( ‘fadeInRight’ );
+		alert('up');
+		}
+		else {
+	
+			alert('down');
+		//$(this).removeClass(‘fadeInRight’).addClass( ‘animated fadeInLeft’ );
+		}
+		},
+		{
+		offset: '100%',
+		});
+	
+	
+	alert('fuck');
+	
+	});
