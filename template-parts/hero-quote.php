@@ -26,7 +26,7 @@
 <div class="panel quote da-quote">
 	<div class="grid nopad">
 		<div class="col-1-3 col-lg-1-2 da-pos-rel">
-			<img src="http://climate-act-now.local/wp-content/themes/climateactnow/images/Zali-Steggall.png" alt="Zali Steggall, OAM MP" class="da-profile-img">
+			<img src="https://climate-act-now.local/wp-content/themes/climateactnow/images/Zali-Steggall.png" alt="Zali Steggall, OAM MP" class="da-profile-img">
 		</div>
 		<div class="col-1-2">
 			<div class="quote-wrap">
