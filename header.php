@@ -27,7 +27,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<meta property=og:url content=https://climateactnow.com.au><meta property=og:type content=website><meta property=og:title content="Keep Australia Safe"><meta property=og:description content="Sign the petition for the National Climate Act to put plans in place that protect our way of life."><meta property=og:image content=https://climate-act-images.s3-ap-southeast-2.amazonaws.com/can-og.png><?php wp_head(); ?>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
 	
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css" media="screen, handheld" />
