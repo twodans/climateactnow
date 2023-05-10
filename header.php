@@ -40,7 +40,7 @@
 <body <?php body_class(); ?>>
 	<div class="header">
 		<div class="wrap">
-			<div class="logo"><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php get_bloginfo( 'name' ); ?>"/></a></div>			
+			<div class="logo"><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.svg" alt="<?php get_bloginfo( 'name' ); ?>"/></a></div>			
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
