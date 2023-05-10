@@ -1544,3 +1544,10 @@ blockquote{ color: #fff;}
 .dm-perfomance-right{
     background-color: #00B4CD;
 }
+
+
+/* entry content on pages */
+
+.entry-content{
+    margin-top: 90px;
+}
