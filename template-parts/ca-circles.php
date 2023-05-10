@@ -1,5 +1,6 @@
 <div class="panel">
     <div class="wrap">
+        <h2>Breakdown of Australia’s emissions</h2>
         <div class="grid dm-grid">
 
         <?php if( have_rows('emissions_container') ){
