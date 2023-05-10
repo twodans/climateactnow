@@ -489,8 +489,7 @@
       padding: 25vh 20px 20px 20px;
   }
   .quote-wrap {
-    padding: ;
-      /*background: rgba(255,255,255,0.9);*/
+    
   }
   .quote figure {
       padding: 20px;
@@ -1556,6 +1555,13 @@
   }
   .dm-perfomance-right{
       background-color: #00B4CD;
+  }
+
+
+  /* da css */
+
+  .da-quote{
+    background-color: #00B4CD;
   }
   
   
