@@ -1597,7 +1597,10 @@
   }
   
   /**************************  SECTION PERFOMANCE   **********************/
-  .grid.dm-perfomance{ margin: 0;}
+  .grid.dm-perfomance{ 
+    margin: 0;
+   
+}
   .dm-perfomance-left, .dm-perfomance-right{
       padding: 60px !important;
       color: #fff;
@@ -1677,6 +1680,10 @@
 
 
   @media only screen and (max-width: 768px){
+
+    .grid.dm-perfomance{
+        display: block;
+    }
     
     .dm-perfomance-left, .dm-perfomance-right {
         padding: 40px 15px !important;
@@ -1712,10 +1719,15 @@
 
 
   }
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .grid.dm-perfomance{ display: block;}
     .grid.dm-perfomance .col-1-2{ width: 100%;}
+
+    .dm-circle-container {
+        width: 190px;
+        height: 190px;
+    }
 
   }
 
@@ -1729,6 +1741,8 @@
     .dm-perfomance-left, .dm-perfomance-right {
         padding: 60px 35px !important;
     }
+
+    
     
   }
 
@@ -2186,10 +2200,11 @@ and (orientation:portrait) {
 /* iphone X landscape */
 @media only screen
 and (min-device-width: 375px)
-and (max-device-height: 812px)
-and (-webkit-device-pixel-ratio: 3)
+and (max-device-height: 900px)
 and (orientation: landscape) {
-
+    .dm-text-hero{
+        display: none;
+    }
 }
 
 
