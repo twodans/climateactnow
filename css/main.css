@@ -1351,7 +1351,7 @@
   .dm-hero {
       position: relative;
       overflow: hidden;
-      background-color: #00B4CD; 
+      background-color: #fff; 
    }
   
   .dm-center-div-hero {
@@ -1476,7 +1476,7 @@
   .dm-circle-container p{
       color: #00B4CD;
       font-size: 50px;
-      font-weight: 600;
+      /* font-weight: 600; */
   }
   
   .dm-center-circle{
@@ -1543,11 +1543,11 @@
   .dm-section p{
     color: #0D3A4D;
     text-align: center;
-    max-width: 80%;
+    /* max-width: 80%; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 16px;
   }
   
@@ -1580,11 +1580,7 @@
   }
 
 
-  /* da css */
 
-  .da-quote{
-    background-color: #00B4CD;
-  }
   
 
   .dm-white-box{
@@ -1609,8 +1605,7 @@
     color: #0D3A4D;
     margin-right: 5px;
   }
-
-
+  
 
   .dm-tasmania:before{
     content:url('../images/tasmania-flag.png');
@@ -1763,4 +1758,348 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   
 
 
-  /* added text comment */
+  /* ################## DA CSS ################## */
+
+
+
+  .da-quote{
+    background-color: #00B4CD;
+    padding-bottom: 0 !important;
+    position: relative;
+    margin-top: -10px;
+  }
+
+  .da-quote .grid.nopad{
+    padding: 0 !important;
+  }
+
+  .da-quote .col-1-3{
+   width: 45%;
+   text-align: right;
+  }
+
+  .da-quote .quote-wrap{
+    padding-right: 10%;;
+  }
+
+  .quote blockquote:before{
+    padding-bottom: 50px;
+  }
+  .ca_support a:hover{
+    color: #fff !important;
+  }
+
+  .support-intro{
+    background: #e1f0f4;
+  }
+
+  .support-intro h2{
+    color: #0D3A4D;
+  }
+
+  .da-b-blue{
+    color: #0D3A4D;
+  }
+
+  .support-intro .btn.teal{
+    background: #0D3A4D;;
+  }
+  .stats-bg{
+  background: url(../images/da-icon-bg.jpg) no-repeat center center !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  }
+
+  .gap{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+  }
+
+
+  .cols-content a{
+    text-decoration: underline !important;
+  }
+
+  .ca_help .cols-content a{
+    color: #404040 !important;
+    font-weight: 500 !important;
+  }
+
+  
+
+  /*Small screens Define mobile styles */
+
+@media only screen { } 
+
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 640px) {
+
+    .hide-sml{
+        display: none;
+      }
+
+      br.da{
+        content: ' ';
+      }
+      
+      br.da:after {
+        content: ' ';
+      }
+
+    .da-quote{
+        padding: 8% 2%;
+    }
+
+}
+
+
+/* max-width 640px, mobile-only styles, use when QAing portrait mobile issues */
+@media only screen and (max-width: 640px) and (orientation:portrait) {
+
+}
+
+
+/* max-width 640px, mobile-only styles, use when QAing landscape mobile issues */
+@media only screen and (max-width: 640px) and (orientation:landscape) {
+
+}
+
+/*Only iPhone 4/4S (both: landscape and portrait)*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-device-pixel-ratio: 2)
+and (device-aspect-ratio: 2/3)
+and (orientation:portrait) {
+
+}
+
+
+/*Medium screens min-width 641px, medium screens */
+@media only screen and (min-width: 641px) {
+
+    .hide-sml{
+        display: block;
+      }
+
+}
+
+
+
+/* iphone X landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-height: 812px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
+
+
+/* iphone X portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-height: 812px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+
+
+/* iPhone 6, 7, 8 Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+
+/* iPhone 6, 7, 8 portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+
+/* iPhone 6+, 7+, 8+ landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* iPhone 6+, 7+, 8+ portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen
+and (min-width: 641px)
+and (max-width: 1024px) {
+
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only landscape issues */
+@media only screen
+and (min-width: 641px)
+and (max-width: 1024px)
+and (orientation: landscape) {
+
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only portrait issues */
+@media only screen
+and (min-width: 641px)
+and (max-width: 1024px)
+and (orientation: portrait) {
+
+}
+
+
+/* iPad Pro Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* iPad Pro Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* iPad Pro Portrait */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+
+/*10" macbook*/
+@media only screen
+and (min-width: 600px)
+and (max-width: 1024px) {
+
+}
+
+
+/*13" macbook*/
+@media only screen
+and (min-width: 800px)
+and (max-width: 1024px) {
+
+}
+
+
+/*Large screens min-width 1025px, large screens*/
+@media only screen
+and (min-width: 1025px) {
+    
+}
+
+
+/*15" macbook*/
+@media screen
+and (min-width: 768px)
+and (max-width: 1366px) {
+
+}
+
+
+/*19" laptop*/
+@media screen
+and (min-width: 900px)
+and (max-width: 1440px) {
+
+}
+
+/*20" laptop*/
+@media screen
+and (min-width: 900px)
+and (max-width: 1600px) {
+
+}
+
+
+/*22" laptop*/
+@media screen
+and (min-width: 1050px)
+and (max-width: 1680px) {
+
+}
+
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen
+and (min-width: 1024px)
+and (max-width: 1440px) { 
+
+}
+
+
+/* XLarge screens min-width 1441px, xlarge screens */
+@media only screen
+and (min-width: 1441px) {
+
+}
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen
+and (min-width: 1441px)
+and (max-width: 1920px) {
+
+}
+
+
+/* min-width 1921px, xxlarge screens */
+@media only screen
+and (min-width: 1921px) {
+
+} 
+
+
+@media screen
+and (orientation: portrait) {
+ 
+}
+
+@media screen
+and (orientation: landscape) {
+  
+}
+
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+
+

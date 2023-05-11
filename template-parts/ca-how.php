@@ -3,7 +3,8 @@
 		<div class="grid header">
 			<div class="dm-section">
 				<h2><?php echo get_field('ca_how_heading'); ?></h2>
-				<p>Clear ambition and plans for each sector aligned with a target of 75 by 35, will deliver jobs and growth across the whole Australian economy.</p>
+				<!-- <p>Clear ambition and plans for each sector aligned with a target of 75 by 35,<br class="da">will deliver jobs and growth across the whole Australian economy.</p> -->
+				<p>Everyday use of electricity and transport, as well as manufacturing, commercial and building use,<br class="da">generates the bulk of Australia’s emissions. That’s why everyone needs to get involved. </p>
 			</div>
 					<?php 
 				$link = get_field('ca_how_cta');
@@ -31,7 +32,7 @@
 		<?php endif; ?>
 		
 		<?php if(get_field('ca_how_extra') != ''): ?>
-			<div><?php echo get_field('ca_how_extra'); ?></div>		
+			<div><?//php echo get_field('ca_how_extra'); ?></div>		
 		<?php endif; ?>
 		
 	</div>

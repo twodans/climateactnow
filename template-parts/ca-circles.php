@@ -2,7 +2,7 @@
     <div class="wrap">
     <div class="dm-section">
     <h2>Breakdown of Australia's emissions</h2>
-        <p>Everyday use of electricity and transport, as well as manufacturing, commercial and building use, generates the bulk of Australia's emissions. That's why everyone needs to get involved.</p>
+        <p>Everyday use of electricity and transport, as well as manufacturing, commercial and building use,<br class="da">generates the bulk of Australia's emissions. That's why everyone needs to get involved.</p>
 </div>
         <div class="grid dm-grid">
 
@@ -32,7 +32,7 @@
         <div class="grid">
             <div class="col-1 dm-text-center-emissions-footer">
                 <p>Total emissions by sector, Jan-March 2022</p>
-                <p>Source: <a href="#" target="_blank" >Department of Climate Change, Energy, the Environment and Water</a></p>
+                <p>Source: <a href="https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022" target="_blank" >Department of Climate Change, Energy, the Environment and Water</a></p>
             </div>
         </div>
     </div>

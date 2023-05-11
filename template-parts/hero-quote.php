@@ -1,4 +1,4 @@
-<?php if(get_field('quote') != ''): ?>
+<!-- <?php if(get_field('quote') != ''): ?>
 <div class="panel quote"  style="background-image: url(<?php echo get_field('quote_bg'); ?>);">
 	<div class="grid nopad">
 		<div class="col-1-3 col-lg-1-2"></div>
@@ -18,12 +18,12 @@
 		</div>
 	</div>	
 </div>
-<?php endif; ?>
+<?php endif; ?> -->
 
-<!-- daniels quote lock up -->
+<!-- da quote lock up -->
 
 <?php if(get_field('quote') != ''): ?>
-<div class="panel quote da-quote">
+<div class="panel quote da-quote hide-sml">
 	<div class="grid nopad">
 		<div class="col-1-3 col-lg-1-2 da-pos-rel">
 			<img src="<?php bloginfo('template_url'); ?>/images/Zali-Steggall.png" alt="Zali Steggall, OAM MP" class="da-profile-img">
@@ -42,6 +42,7 @@
 				</figure>				
 			</div>	
 		</div>
-	</div>	
+	</div>
+	<div class="gap"></div>	
 </div>
 <?php endif; ?>

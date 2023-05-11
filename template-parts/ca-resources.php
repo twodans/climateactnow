@@ -14,9 +14,9 @@
 					<a href="<?php the_sub_field('resource_cta'); ?>" class="resources-pic" target="_blank"><img src="<?php echo esc_url($image['sizes'][ $size ]); ?>" alt="<?php the_sub_field('resource_title'); ?>" /></a>
 						<?php endif; ?>
 					
-					<div class="resources-body">							
+					<div class="resources-body">	
+					<div class="resources-attr"><?php the_sub_field('resource_title'); ?></div>						
 						<div class="resources-desc"><?php the_sub_field('resource_description'); ?></div>				
-						<div class="resources-attr"><?php the_sub_field('resource_title'); ?></div>
 						<a href="<?php the_sub_field('resource_cta'); ?>" target="_blank">Read report</a>
 					</div>
 				</div>
