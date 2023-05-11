@@ -1551,7 +1551,7 @@
   }
   
   /**************************  SECTION PERFOMANCE   **********************/
-  
+  .grid.dm-perfomance{ margin: 0;}
   .dm-perfomance-left, .dm-perfomance-right{
       padding: 60px !important;
       color: #fff;
