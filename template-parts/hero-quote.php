@@ -23,9 +23,9 @@
 <!-- da quote lock up -->
 
 <?php if(get_field('quote') != ''): ?>
-<div class="panel quote da-quote hide-sml">
+<div class="panel quote da-quote">
 	<div class="grid nopad">
-		<div class="col-1-3 col-lg-1-2 da-pos-rel">
+		<div class="col-1-3 col-lg-1-2 da-pos-rel hidde-768">
 			<img src="<?php bloginfo('template_url'); ?>/images/Zali-Steggall.png" alt="Zali Steggall, OAM MP" class="da-profile-img">
 		</div>
 		<div class="col-1-2">
@@ -42,6 +42,11 @@
 				</figure>				
 			</div>	
 		</div>
+
+		<div class="col-1-3 col-lg-1-2 da-pos-rel show-768">
+			<img src="<?php bloginfo('template_url'); ?>/images/Zali-Steggall.png" alt="Zali Steggall, OAM MP" class="da-profile-img">
+		</div>
+
 	</div>
 	<div class="gap"></div>	
 </div>

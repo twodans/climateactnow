@@ -48,7 +48,8 @@
                   </select>
                 </div>
                 <h2>{{ signedUsers | toLocale }}</h2>
-                <p>{{ getFilterDesc(filter.type) }}</p>
+                <!-- <p>{{ getFilterDesc(filter.type) }}</p> -->
+                <p>people are calling for climate action</p>
                 <div>
                   <button
                       :disabled="isRefreshing"

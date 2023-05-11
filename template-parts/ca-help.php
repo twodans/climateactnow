@@ -3,7 +3,7 @@
 		<h2><?php echo get_field('ca_help_heading'); ?></h2>	
 		
 		<?php if( have_rows('ca_help_cols') ): ?>
-			<div class="grid">
+			<div class="grid dm-grid-help">
 			<?php while( have_rows('ca_help_cols') ): the_row(); ?>		
 				<div class="col-1-5">
 					<div class="cols-pic">	

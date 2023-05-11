@@ -442,10 +442,8 @@
   }
   
   @media only screen and (min-width: 1200px) {
-      
-  body>.header {
-      padding-top: 15px;
-  }
+    .quote figure{ font-size: 26px;}   
+    body>.header {padding-top: 15px; }
       .signups {
           position: absolute;
           top: 20px;
@@ -479,8 +477,42 @@
       
   }
   
-  
-  
+  /************* Quote queries  ***********/
+  @media only screen and (min-width: 768px) and (max-width: 960px) {
+    .quote figure {
+        padding: 20px 0 !important;
+        font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .hidde-768{ display: none;}
+    .show-768{ display: block; }
+    .quote {
+        background-size: unset;
+        background-repeat: unset;
+        background-position: unset;
+        background-position: unset;
+        padding: 20px !important;
+    }
+    .da-quote .quote-wrap {
+        padding-right: 0;
+    }
+    .da-quote .col-1-3 {
+        width: 70% !important;
+        float: right;
+    }
+    .quote figure {
+        padding: 20px 0 0 0 !important;
+    }
+  }
+
+  @media only screen and (min-width: 769px){
+    .hidde-768{ display: block;}
+    .show-768{ display: none; }
+  }
+
+
   .quote {
       background-size: cover;
       background-repeat: no-repeat;
@@ -488,12 +520,9 @@
       background-position: 18%;
       padding: 25vh 20px 20px 20px;
   }
-  .quote-wrap {
-    
-  }
+
   .quote figure {
       padding: 20px;
-      font-size: 18px;
       line-height: 1.4;
   }
   .quote figcaption {
@@ -654,6 +683,10 @@
   .resources-attr {
       font-weight: bold;
   }
+
+  .resources-desc p{padding-bottom: 0}
+
+  .resources-desc a {text-transform: lowercase !important;}
   .resource-wrap a {
       color: #00B4CD;
       font-weight: 400;
@@ -1521,6 +1554,19 @@
       font-weight: 400;
   }
   
+
+  @media only screen and (max-width: 768px){
+    
+
+    .dm-column-circle {
+        width: 50%;
+    }
+    .dm-circle-container {
+        width: 200px;
+        height: 200px;
+    }
+    
+  }
   
   /*******************   SECTION HOW  *******************/
   
@@ -1626,8 +1672,69 @@
 
   .dm-padding-wb{
     padding: 50px 20px;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
   }
+
+
+  @media only screen and (max-width: 768px){
+    
+    .dm-perfomance-left, .dm-perfomance-right {
+        padding: 40px 15px !important;
+    }
+    .dm-perfomance p.dm-text-perfomance {
+        max-width: 80%;
+        font-size: 18px;
+    }
+
+    .dm-white-box p, .dm-white-box p span {
+        font-size: 16px;
+    }
+
+    .holder {
+        width: 100% !important;
+        max-height: 240px;
+    }
+
+    .dm-list li span:first-of-type {
+        margin-left: 0 !important;
+    }
+    .dm-list li span {
+        margin-right: 0 !important;
+    }
+
+    .dm-victoria:before, .dm-tasmania:before, .dm-nsw:before {
+        margin-top: -1px;
+    }
+
+    .dm-list {
+        transform: translate(0, -64%);
+    }
+
+
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .grid.dm-perfomance{ display: block;}
+    .grid.dm-perfomance .col-1-2{ width: 100%;}
+
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1250px) {
+    .dm-list li span:first-of-type {
+        margin-left: 0 !important;
+    }
+    .dm-list li span {
+        margin-right: 0 !important;
+    }
+    .dm-perfomance-left, .dm-perfomance-right {
+        padding: 60px 35px !important;
+    }
+    
+  }
+
+
+  
+
 
   /************************  SLIDER  *******************/
 
@@ -1765,6 +1872,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    body .ca_how.dm-how .hover-copy{
+        font-size: 15px !important;
+    }
+    
+  }
 
 
 
@@ -1885,6 +1998,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     font-size: 16px;
   }
 
+  @media only screen and (min-width: 769px) and (max-width: 1025px) {
+
+    .grid.dm-grid-help {
+        display: block;
+    }
+    .dm-grid-help .col-1-5{
+        width: 50%;
+        float: left;
+    }
+
+    
+  }
+  
+  
+
   /************************   SIGN SCROLL - page.php  **************/
 
   .dm-sign-scroll{
@@ -1964,6 +2092,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   @media only screen and (min-width: 1025px) {
     .display-1024{ display: none;}
     .hidde-1024{ display: block;}
+
+    
   }
 
   /*************  FIX HEADER MOBILE *************/
