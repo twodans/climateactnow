@@ -5,7 +5,7 @@
         <div class="grid dm-perfomance">
             <div class="col-1-2 dm-perfomance-left">
                 <h2>Let’s turn Australia from a laggard to a leader in climate action</h2>
-                <p class="dm-text-perfomance">Australia is ranked in the bottom 10 countries for climate action – a lowly 55 out of 63 nations on the <br><a href="#" target="_blank">Climate Change Performance Index</a></p>
+                <p class="dm-text-perfomance">Australia is ranked in the bottom 10 countries for climate action – a lowly 55 out of 63 nations on the <br><a href="https://ccpi.org/" target="_blank">Climate Change Performance Index</a></p>
 
 
 <div class="dm-white-box holder" >

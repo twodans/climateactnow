@@ -267,7 +267,7 @@
       background: #EFF7F9;
       width: 100%;
       position: fixed;
-      z-index: 99;
+      z-index: 9999;
       top: 0;
       padding-top: 0;
   }
@@ -522,7 +522,7 @@
   }
   
   .ca_help {
-      background:#EFF7F9;
+      background:#fff;
   }
   .ca_help h2 {
       text-align: center;	
@@ -1351,7 +1351,8 @@
   .dm-hero {
       position: relative;
       overflow: hidden;
-      background-color: #fff; 
+      background-color: #00B4CD; 
+      z-index: 999;
    }
   
   .dm-center-div-hero {
@@ -1792,7 +1793,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   /***********************   CA SUPPORT  ********************/
 
   .cols-content.dm-cols-content p a{
-    font-weight: normal;
+    font-weight: 500;
   }
   
 
@@ -1890,7 +1891,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     color: #fff;
     position: fixed !important;
     right: 0;
-    z-index: 9;
+    z-index: 99;
     top: 50%;
     padding: 8px 8px 8px 10px;
   }

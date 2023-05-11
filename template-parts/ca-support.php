@@ -2,7 +2,7 @@
 		<div class="support-intro">
 			
 	<div class="wrap">
-		<h2>Join <span><?php echo ($GLOBALS['totalSignUps'] > 0 ? number_format($GLOBALS['totalSignUps']) : 'loading...'); ?></span> people who have signed to support the act </h2>	
+		<h2>Join <span><?php echo ($GLOBALS['totalSignUps'] > 0 ? number_format($GLOBALS['totalSignUps']) : 'loading...'); ?></span> people who want climate action</h2>	
 		<?php 
 				$link = get_field('ca_support_cta');
 				if( $link ): 
