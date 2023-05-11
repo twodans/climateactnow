@@ -1787,7 +1787,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
   }
 
- 
+ /******************  FIX SLIDER FOOTER LINE TO THE RIGHT  ****************/
+ .slick-slide{ padding-left: 5px;}
 
 
   /***********************   CA SUPPORT  ********************/
