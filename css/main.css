@@ -221,8 +221,8 @@
   .btn.teal {
       background: #00B4CD;
   }
-  
-  .btn:after, .wpcf7-submit.button:after, .topbar h3 a:before, .nav-previous a:before, .nav-next a:after, .open .menu a:before, .header .signups:after { 
+  /*, .header .signups:after*/
+  .btn:after, .wpcf7-submit.button:after, .topbar h3 a:before, .nav-previous a:before, .nav-next a:after, .open .menu a:before { 
       content: '\e806';
       transform: translateX(10px);
       opacity: 0.5;
@@ -1391,6 +1391,7 @@
       padding: 10px 20px;
       color: #fff;
       text-transform: lowercase !important;
+      display: inline-block;
   }
 
   .btn.dm-btn-hero span{
@@ -1426,10 +1427,7 @@
           line-height: 22px;
       }
   
-      .dm-center-div-hero {
-          padding: 0;
-          width: auto;
-      }
+      
       .dm-container-text{
           padding: 0 15px;
       }
@@ -1476,7 +1474,7 @@
   .dm-circle-container p{
       color: #00B4CD;
       font-size: 50px;
-      /* font-weight: 600; */
+      /* font-weight: 600; */  
   }
   
   .dm-center-circle{
@@ -1566,7 +1564,6 @@
   .dm-perfomance p.dm-text-perfomance{
     max-width: 68%;
     font-size: 20px;
-    font-weight: 600;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1574,6 +1571,7 @@
   .dm-perfomance .dm-perfomance-left p a{
     color: #00B4CD;
     text-decoration: underline;
+    font-weight: normal;
   }
   .dm-perfomance-right{
       background-color: #00B4CD;
@@ -1585,7 +1583,7 @@
 
   .dm-white-box{
     background-color: #fff;
-    padding: 0 20px;
+    padding: 20px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -1626,7 +1624,8 @@
   }
 
   .dm-padding-wb{
-    padding: 37px 20px;
+    padding: 50px 20px;
+    margin-top: 30px;
   }
 
   /************************  SLIDER  *******************/
@@ -1658,6 +1657,11 @@
     margin-right: 20px;
   }
 
+  .dm-list li span:first-of-type{
+    margin-left: 20px;
+    margin-right: 0;
+  }
+
   .dm-list li span.dm-number{
     display: table-cell;
     width: 200px;
@@ -1677,7 +1681,7 @@
   .holder{
     position: relative;
     width: 90%;
-    max-height: 200px;
+    max-height: 240px;
     overflow: hidden;
   }
   
@@ -1691,6 +1695,8 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); 
   }
+
+  .triangle img{ max-width: 20px;}
 
 .dm-blur-top{
     position: absolute;
@@ -1726,11 +1732,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
   
 
+.ca_how.dm-how .col-1-5{ padding: 0 0 !important;}
 
 
 
 
+.ca_how.dm-how .hover-hd h3 {
+    max-width: 86%;
+    padding-top: 20px;
+}
 
+.ca_how.dm-how .col-1-5:nth-of-type(2) h3, .ca_how.dm-how .col-1-5:nth-of-type(4) h3{
+    color: #00B4CD !important;
+  }
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1180px) {
+
+.ca_how.dm-how .hover-wrap{
+  padding: 20px 0 20px 20px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .ca_how.dm-how .col-1-5{ 
+        width:  50%;
+        padding: 20px !important;
+    }
+}
 
 
 
@@ -1755,6 +1787,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   }
 
  
+
+
+  /***********************   CA SUPPORT  ********************/
+
+  .cols-content.dm-cols-content p a{
+    font-weight: normal;
+  }
   
 
 
@@ -1831,7 +1870,119 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     font-weight: 500 !important;
   }
 
+
+  /*********************  HEADER  **************/
+  .dm-signups{ margin-right: 15px !important;}
+
+
+  /*********************  CA HELP  **********************/
+
+  /*.wrap.dm-wrap-help{ max-width: 1600px;}*/
+
+  .wrap.dm-wrap-help .cols-content p{
+    font-size: 16px;
+  }
+
+  /************************   SIGN SCROLL - page.php  **************/
+
+  .dm-sign-scroll{
+    background-color: #0D3A4D;
+    color: #fff;
+    position: fixed !important;
+    right: 0;
+    z-index: 9;
+    top: 50%;
+    padding: 8px 8px 8px 10px;
+  }
+
+  .dm-sign-scroll a{
+    color: #fff;
+    font-weight: normal;
+  }
+
+  .dm-text-sign-scroll, .dm-sign-scroll-image{
+    float: left;
+    display: block;
+  }
+  .dm-text-sign-scroll p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .dm-text-sign-scroll p:first-of-type{
+    color: #00B4CD;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .dm-text-sign-scroll p:first-of-type a{
+    color: #00B4CD;
+  }
   
+  .dm-sign-scroll-image img{
+    max-width: 30px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .dm-sign-scroll{
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        top: unset;
+        padding: 10px 5px 5px 5px;
+    }
+
+    .wrap-scroll{
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dm-text-sign-scroll p{
+        float: left;
+    }
+    .dm-br-scroll{
+        display: none;
+    }
+    .dm-sign-scroll-image img {
+        max-width: 10px;
+        margin-left: 20px;
+    }
+    .dm-text-sign-scroll p:first-of-type {
+        margin-right: 20px;
+    }
+    footer.page-footer {
+        padding-bottom: 60px;
+    }
+    .display-1024{ display: block;}
+    .hidde-1024{ display: none;}
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .display-1024{ display: none;}
+    .hidde-1024{ display: block;}
+  }
+
+  /*************  FIX HEADER MOBILE *************/
+  @media only screen and (max-width: 582px) {
+    body>.header {
+        padding-bottom: 15px;
+    }
+    .dm-mobile-pad{
+        padding-top: 7px;
+    }
+  }
+
+
+  @media only screen
+and (min-width: 641px)
+and (max-width: 1024px){
+    .dm-center-div-hero {
+        padding: 0;
+        width: auto;
+    }
+}
 
   /*Small screens Define mobile styles */
 
@@ -1840,23 +1991,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 640px) {
+    
 
     .hide-sml{
         display: none;
       }
 
-      br.da{
+     
+
+    .da-quote{
+        padding: 8% 2%;
+    }
+
+}
+
+
+/*************** BREAKS ******************/
+@media only screen and (max-width: 980px) {
+    br.da{
         content: ' ';
       }
       
       br.da:after {
         content: ' ';
       }
-
-    .da-quote{
-        padding: 8% 2%;
-    }
-
 }
 
 

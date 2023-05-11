@@ -50,7 +50,7 @@
 			
 			<a href="#" class="menu-trigger"></a>
 		</div>
-		<a class="signups" href="https://join.climateactnow.com.au"><?php echo ($GLOBALS['totalSignUps'] > 0 ? $GLOBALS['totalSignUps'] : 'loading...'); ?> <strong>sign ups</strong></a>
+		<a class="signups " href="https://join.climateactnow.com.au"><strong class="dm-signups">JOIN</strong> <?php echo ($GLOBALS['totalSignUps'] > 0 ? $GLOBALS['totalSignUps'] : 'loading...'); ?> <strong class="dm-mobile-pad">CALLING FOR CLIMATE ACTION!</strong></a>
 	</div>
 	
 	<?php if(get_field('ticker_content') != ''): ?>

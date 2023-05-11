@@ -156,7 +156,7 @@ Vue.component('campaign-stats', {
             " support the Climate Change Act";
           break;
         default:
-          res = "people support the Climate Change Act";
+          res = "people are calling for climate action";
       }
       return res;
     }

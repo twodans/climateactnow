@@ -1,4 +1,4 @@
-<div class="panel ca_how">
+<div class="panel ca_how dm-how">
 	<div class="wrap">
 		<div class="grid header">
 			<div class="dm-section">

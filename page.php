@@ -20,6 +20,21 @@ get_header();
 			the_post();
 ?>
 
+<div class="dm-sign-scroll scroll-box">
+	<a href="https://join.climateactnow.com.au/" target="_blank">
+	<div class="wrap-scroll">
+		<div class="dm-text-sign-scroll">
+			<p>SIGN UP</p>
+			<p>to show your <br class="dm-br-scroll">support</p>
+		</div>
+		<div class="dm-sign-scroll-image">
+			<img src="<?php bloginfo('template_url'); ?>/images/arrow-btn-1.svg" class="hidde-1024">
+			<img src="<?php bloginfo('template_url'); ?>/images/arrow-btn.svg" class="display-1024">
+		</div>
+	</div>
+	</a>
+</div>
+
 			<?php if( is_front_page() ) { ?>
 			<!-- <?php get_template_part( 'template-parts/ca-submissions', 'page' ); ?> -->
 			<?php get_template_part( 'template-parts/hero-quote', 'page' ); ?>

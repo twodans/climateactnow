@@ -1,5 +1,5 @@
 <div class="panel ca_help">
-	<div class="wrap">
+	<div class="wrap dm-wrap-help">
 		<h2><?php echo get_field('ca_help_heading'); ?></h2>	
 		
 		<?php if( have_rows('ca_help_cols') ): ?>

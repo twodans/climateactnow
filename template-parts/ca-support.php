@@ -41,7 +41,7 @@
 						<?php endif; ?>
 							</a>
 						</div>
-						<div class="cols-content"><h3><?php the_sub_field('ca_support_item_heading'); ?></h3><?php the_sub_field('ca_support_item_content'); ?></div>
+						<div class="cols-content dm-cols-content"><h3><?php the_sub_field('ca_support_item_heading'); ?></h3><?php the_sub_field('ca_support_item_content'); ?></div>
 					</div>
 				</div>
 			<?php endwhile; ?>
