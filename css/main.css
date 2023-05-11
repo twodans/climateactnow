@@ -670,7 +670,7 @@
   }
   .resources-pic {
       width: 100px;
-      height: 140px;
+      height: 130px;
       background-repeat: no-repeat;
       background-size: cover;
       flex: 0 0 100px;
@@ -1714,7 +1714,7 @@
     }
 
     .dm-list {
-        transform: translate(0, -64%);
+        transform: translate(0, -64%) !important;
     }
 
 
@@ -1921,7 +1921,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   /***********************   CA SUPPORT  ********************/
 
   .cols-content.dm-cols-content p a{
-    font-weight: 500;
+    font-weight: 600;
   }
   
 
@@ -2075,7 +2075,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
         width: 100%;
         left: 0;
         top: unset;
-        padding: 10px 5px 5px 5px;
+        /* padding: 10px 5px 5px 5px; */
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
+        align-items: center;
     }
 
     .wrap-scroll{
@@ -2101,6 +2105,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
     .display-1024{ display: block;}
     .hidde-1024{ display: none;}
+
+    
+  }
+
+  @media only screen and (max-width: 580px) {
+    .signups {
+        height: 70px;
+    }
+    .dm-mobile-pad {
+        padding-top: 11px;
+    }
   }
 
   @media only screen and (min-width: 1025px) {
@@ -2111,13 +2126,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   }
 
   /*************  FIX HEADER MOBILE *************/
-  @media only screen and (max-width: 582px) {
+  @media only screen and (max-width: 580px) {
     body>.header {
         padding-bottom: 15px;
     }
-    .dm-mobile-pad{
-        padding-top: 7px;
-    }
+    
   }
 
 
@@ -2408,3 +2421,6 @@ and (orientation: landscape) {
 
 
 
+.gap{
+    margin-top: -1px
+}
