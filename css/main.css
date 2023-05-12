@@ -1740,6 +1740,11 @@
     }
 
     .dm-list {
+        -webkit-transform: translate(0, -64%);
+        -moz-transform: translate(0, -64%);
+        -moz-transform: translate(0, -64%);
+        -o-transform: translate(0, -64%);
+        -ms-transform: translate(0, -64%);
         transform: translate(0, -64%) !important;
     }
 
@@ -1784,6 +1789,11 @@
 
   .dm-list{
     list-style: none;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
     transform: translate(0, 0);
     -webkit-transition: all .8s ease-in-out;
     -moz-transition: all .8s ease-in-out;
@@ -1793,6 +1803,11 @@
   }
 
   .dm-list.dm-down{
+    -webkit-transform: translate(0, -64%);
+    -moz-transform: translate(0, -64%);
+    -moz-transform: translate(0, -64%);
+    -o-transform: translate(0, -64%);
+    -ms-transform: translate(0, -64%);
     transform: translate(0, -64%);
   }
 
