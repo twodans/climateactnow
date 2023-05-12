@@ -1705,6 +1705,11 @@
   @media only screen and (max-width: 400px) {
     .hidde-400{ display: none;}
     .show-400{ display: block;}
+    .dm-sub {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
   }
 
   @media only screen and (min-width: 401px) {
