@@ -1,0 +1,64 @@
+<svg id="slider-mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="704" height="352" viewBox="0 0 704 352">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_331" data-name="Rectangle 331" width="700" height="326" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_311" data-name="Rectangle 311" width="700" height="350" transform="translate(3 2)" fill="#fff"/>
+  <g id="Component_10_1" data-name="Component 10 – 1" transform="translate(4)">
+    <g id="Mask_Group_33" data-name="Mask Group 33" clip-path="url(#clip-path)">
+      <g id="Component_9_1" data-name="Component 9 – 1" transform="translate(68 -431)">
+        <text id="Czech_Republic_Belarus_Turkey_Algeria_Argentina_Japan_China_United_States_Hungary_Poland_Australia_Malaysia_Chinese_Taipei" data-name="Czech Republic
+Belarus
+Turkey
+Algeria
+Argentina
+Japan
+China
+United States
+Hungary
+Poland
+Australia
+Malaysia
+Chinese Taipei" transform="translate(85 -43)" fill="#0d3a4d" font-size="36" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="34">Czech Republic</tspan><tspan x="0" y="97">Belarus</tspan><tspan x="0" y="160">Turkey</tspan><tspan x="0" y="223">Algeria</tspan><tspan x="0" y="286">Argentina</tspan><tspan x="0" y="349">Japan</tspan><tspan x="0" y="412">China</tspan><tspan x="0" y="475">United States</tspan><tspan x="0" y="538">Hungary</tspan><tspan x="0" y="601">Poland</tspan><tspan x="0" y="664">Australia</tspan><tspan x="0" y="727">Malaysia</tspan><tspan x="0" y="790">Chinese Taipei</tspan></text>
+        <text id="_44.16_43.69_43.32_42.26_41.19_40.85_38.80_38.53_38.51_37.94_36.26_33.51_28.35" data-name="44.16
+43.69
+43.32
+42.26
+41.19
+40.85
+38.80
+38.53
+38.51
+37.94
+36.26
+33.51
+28.35" transform="translate(453 -43)" fill="#0d3a4d" font-size="36" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="0" y="33">44.16</tspan><tspan x="0" y="96">43.69</tspan><tspan x="0" y="159">43.32</tspan><tspan x="0" y="222">42.26</tspan><tspan x="0" y="285">41.19</tspan><tspan x="0" y="348">40.85</tspan><tspan x="0" y="411">38.80</tspan><tspan x="0" y="474">38.53</tspan><tspan x="0" y="537">38.51</tspan><tspan x="0" y="600">37.94</tspan><tspan x="0" y="663">36.26</tspan><tspan x="0" y="726">33.51</tspan><tspan x="0" y="789">28.35</tspan></text>
+        <text id="_45._46._47._48._49._50._51._52._53._54._55._56._57." data-name="45. 
+46.
+47.
+48.
+49.
+50.
+51.
+52.
+53.
+54.
+55.
+56.
+57." transform="translate(0 -43)" fill="#00b4cd" font-size="36" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="34">45. </tspan><tspan x="0" y="97">46.</tspan><tspan x="0" y="160">47.</tspan><tspan x="0" y="223">48.</tspan><tspan x="0" y="286">49.</tspan><tspan x="0" y="349">50.</tspan><tspan x="0" y="412">51.</tspan><tspan x="0" y="475">52.</tspan><tspan x="0" y="538">53.</tspan><tspan x="0" y="601">54.</tspan><tspan x="0" y="664">55.</tspan><tspan x="0" y="727">56.</tspan><tspan x="0" y="790">57.</tspan></text>
+      </g>
+    </g>
+  </g>
+  <path id="Polygon_1" data-name="Polygon 1" d="M17,0,34,29H0Z" transform="translate(31 160) rotate(90)" fill="#0d3a4d"/>
+  <path id="Path_2670" data-name="Path 2670" d="M1,1,700,0V153H0Z" transform="translate(0 196)" opacity="0.846" fill="url(#linear-gradient)"/>
+  <path id="Path_2669" data-name="Path 2669" d="M0,0H700V163H0Z" transform="translate(2)" opacity="0.846" fill="url(#linear-gradient-2)"/>
+</svg>
