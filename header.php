@@ -68,7 +68,7 @@
 <div class="dm-hero">
 		<div class="dm-center-div-hero">
 			<div class="dm-container-text">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/75_by_35_RGB.svg" class="dm-logo-hero" alt="75 by 35 - Cut emissions by 75% by 2035">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_75by35-update.svg" class="dm-logo-hero" alt="75 by 35 - Cut emissions by 75% by 2035">
 				<p class="dm-text-hero"></p>
 				<p class="dm-text-hero">Zali Steggall OAM MP is urgently calling for Australia to commit to a minimum 75% emissions reduction by 2035. To meet the Paris Agreement goal of limiting global warming to 1.5C, host a COP Summit and emerge as a leader in climate action, Australia needs to match our ambition to our international peers and accelerate emissions reduction.</p>
 				<p><a href="https://join.climateactnow.com.au/" class="btn dm-btn-hero" target="_blank"><span>Sign up</span> to show your support </a></p>
