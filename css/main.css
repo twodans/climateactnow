@@ -1508,6 +1508,7 @@
   .dm-circle-container p{
       color: #00B4CD;
       font-size: 50px;
+      padding-bottom: 0;
       /* font-weight: 600; */  
   }
   
