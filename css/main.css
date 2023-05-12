@@ -1577,7 +1577,7 @@
     .dm-text-hero{ display: none;}
 
     .btn.dm-btn-hero {
-        padding: 10px 10px;
+        padding: 10px 15px;
         font-size: 13px;
     }
     .dm-text-sign-scroll p {
@@ -1697,6 +1697,12 @@
     /*margin-top: 30px;*/
   }
 
+  @media only screen and (min-width: 400px) and (max-width: 767px) {
+    .dm-circle-container p {
+        font-size: 34px;
+    }
+  }
+
 
   @media only screen and (max-width: 768px){
 
@@ -1748,6 +1754,10 @@
         height: 190px;
     }
 
+    .dm-circle-container p {
+        font-size: 34px;
+    }
+
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1250px) {
@@ -1774,11 +1784,11 @@
   .dm-list{
     list-style: none;
     transform: translate(0, 0);
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
   }
 
   .dm-list.dm-down{
