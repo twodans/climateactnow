@@ -68,7 +68,7 @@
 <div class="dm-hero">
 		<div class="dm-center-div-hero">
 			<div class="dm-container-text">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_75by35-tiny.png" class="dm-logo-hero" alt="75 by 35 - Cut emissions by 75% by 2035">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/Logo_75by35.svg" class="dm-logo-hero" alt="75 by 35 - Cut emissions by 75% by 2035">
 				<p class="dm-text-hero"></p>
 				<p class="dm-text-hero">Zali Steggall OAM MP is urgently calling for Australia to commit to a minimum 75% emissions reduction by 2035. To meet the Paris Agreement goal of limiting global warming to 1.5C, host a COP Summit and emerge as a leader in climate action, Australia needs to match our ambition to our international peers and accelerate emissions reduction.</p>
 				<p><a href="https://join.climateactnow.com.au/" class="btn dm-btn-hero" target="_blank"><span>Sign up</span> to show your support </a></p>
@@ -79,10 +79,14 @@
 		$add_a_video_header = get_field('add_a_video_header');
 		$poster_video 		= get_field('poster_video');
 	?>
-		<video id="dm-hero-div" loop preload='none' autoplay muted width="100%" poster="<?php echo $poster_video; ?>">
+	<!----> 
+	<video id="dm-hero-div" loop preload='none' autoplay muted width="100%" poster="<?php echo $poster_video; ?>">
 		<source id="mp4" src="<?php echo $add_a_video_header; ?>" type='video/mp4' />
 		<p>Your user agent does not support the HTML5 Video element.</p>
-	</video> 
+	</video>
+	
+
+
 	<?php } ?>
 	
 </div>

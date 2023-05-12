@@ -1740,11 +1740,11 @@
     }
 
     .dm-list {
-        -webkit-transform: translate(0, -64%);
-        -moz-transform: translate(0, -64%);
-        -moz-transform: translate(0, -64%);
-        -o-transform: translate(0, -64%);
-        -ms-transform: translate(0, -64%);
+        -webkit-transform: translate(0, -64%) !important;
+        -moz-transform: translate(0, -64%) !important;
+        -moz-transform: translate(0, -64%) !important;
+        -o-transform: translate(0, -64%) !important;
+        -ms-transform: translate(0, -64%) !important;
         transform: translate(0, -64%) !important;
     }
 
@@ -2467,5 +2467,6 @@ and (orientation: landscape) {
 
 
 .gap{
-    margin-top: -1px
+    margin-top: -1px;
+    bottom: -1px;
 }
