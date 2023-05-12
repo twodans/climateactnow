@@ -34,17 +34,22 @@
 
 
 </div>
-            <div class="col-1-2 dm-perfomance-right">
+            <div class="col-1-2 dm-perfomance-right hidde-400">
                 <div class="match">
                     <h2>‘75 by 35’ is realistic and <br class="hidden-640">achievable for Australia</h2>
                     <p class="dm-text-perfomance">We need to meet the ambition of our global peers. Three states are leading the way. We need all states to follow.</p>
                 </div>
                 <div class="dm-white-box dm-padding-wb ">
                     <p class="dm-tasmania"><span>Tasmania</span>  Net Zero by 2030</p>
-                    <p class="dm-victoria"><span>Victoria</span> 75-80% reduction by 2035</pv>
+                    <p class="dm-victoria"><span>Victoria</span> 75-80% reduction by 2035</p>
                     <p class="dm-nsw"><span>NSW</span> 70% reduction by 2035</p>
                 </div>
             </div>
+
+            <div class="col-1-2 dm-perfomance-right show-400">
+                <img src="<?php bloginfo('template_url'); ?>/images/slider-flags.svg" alt="Perfomance">
+            </div>
+
         </div>
 
 </div>
