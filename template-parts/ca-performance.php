@@ -37,7 +37,7 @@
                     <h2>Let’s turn Australia from a laggard to a leader in climate action</h2>
                     <p class="dm-text-perfomance">Australia is ranked in the bottom 10 countries for climate action – a lowly 55 out of 63 nations on the <br><a href="https://ccpi.org/" target="_blank">Climate Change Performance Index</a></p>
                 </div>
-                <img src="<?php bloginfo('template_url'); ?>/images/slider-mobile.svg" alt="Countries">
+                <img src="<?php bloginfo('template_url'); ?>/images/slider-countries-mobile-updated-v3.svg" alt="Countries">
             </div>
 
             <div class="col-1-2 dm-perfomance-right hidden-640">
@@ -57,7 +57,7 @@
                     <h2>‘75 by 35’ is realistic and <br class="hidden-640">achievable for Australia</h2>
                     <p class="dm-text-perfomance">We need to meet the ambition of our global peers. Three states are leading the way. We need all states to follow.</p>
                 </div>
-                <img src="<?php bloginfo('template_url'); ?>/images/slider-flags-updated.svg" alt="Perfomance" style="">
+                <img src="<?php bloginfo('template_url'); ?>/images/slider-flags-updated-v3.svg" alt="Perfomance" style="">
             </div>
 
         </div>
