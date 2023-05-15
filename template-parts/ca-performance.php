@@ -3,7 +3,7 @@
 <div class="panel" id="basic-waypoint">
 
         <div class="grid dm-perfomance">
-            <div class="col-1-2 dm-perfomance-left hidde-400">
+            <div class="col-1-2 dm-perfomance-left hidden-640">
                 <div class="match">
                     <h2>Let’s turn Australia from a laggard to a leader in climate action</h2>
                     <p class="dm-text-perfomance">Australia is ranked in the bottom 10 countries for climate action – a lowly 55 out of 63 nations on the <br><a href="https://ccpi.org/" target="_blank">Climate Change Performance Index</a></p>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="col-1-2 dm-perfomance-left show-400">
+            <div class="col-1-2 dm-perfomance-left show-640">
                 <div class="match">
                     <h2>Let’s turn Australia from a laggard to a leader in climate action</h2>
                     <p class="dm-text-perfomance">Australia is ranked in the bottom 10 countries for climate action – a lowly 55 out of 63 nations on the <br><a href="https://ccpi.org/" target="_blank">Climate Change Performance Index</a></p>
@@ -40,7 +40,7 @@
                 <img src="<?php bloginfo('template_url'); ?>/images/slider-mobile.svg" alt="Countries">
             </div>
 
-            <div class="col-1-2 dm-perfomance-right hidde-400">
+            <div class="col-1-2 dm-perfomance-right hidden-640">
                 <div class="match">
                     <h2>‘75 by 35’ is realistic and <br class="hidden-640">achievable for Australia</h2>
                     <p class="dm-text-perfomance">We need to meet the ambition of our global peers. Three states are leading the way. We need all states to follow.</p>
@@ -52,12 +52,12 @@
                 </div>
             </div>
 
-            <div class="col-1-2 dm-perfomance-right show-400">
+            <div class="col-1-2 dm-perfomance-right show-640">
                 <div class="match">
                     <h2>‘75 by 35’ is realistic and <br class="hidden-640">achievable for Australia</h2>
                     <p class="dm-text-perfomance">We need to meet the ambition of our global peers. Three states are leading the way. We need all states to follow.</p>
                 </div>
-                <img src="<?php bloginfo('template_url'); ?>/images/slider-flags.svg" alt="Perfomance">
+                <img src="<?php bloginfo('template_url'); ?>/images/slider-flags-updated.svg" alt="Perfomance" style="">
             </div>
 
         </div>

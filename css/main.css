@@ -1635,6 +1635,10 @@
       background-color: #0D3A4D;
   }
 
+  .dm-perfomance-right img {
+    background-color: #fff;
+  }
+
   .dm-perfomance p.dm-text-perfomance{
     max-width: 68%;
     font-size: 20px;
@@ -1980,11 +1984,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
       .entry-header{ margin-top: 120px; }
       .entry-content{ margin-top: 50px !important; }
       .hidden-640{ display: none; }
+      .show-640{ display: block; }
 
     .support-block .cols-pic img {
         max-width: 50px;
     }
 
+  }
+
+  @media only screen and (min-width: 641px) {
+    .hidden-640{ display: block; }
+      .show-640{ display: none; }
   }
 
  /******************  FIX SLIDER FOOTER LINE TO THE RIGHT  ****************/
