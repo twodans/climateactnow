@@ -31,6 +31,7 @@
         </div>
         <div class="grid">
             <div class="col-1 dm-text-center-emissions-footer">
+                <p>*Note Land Use, Land Use Change and Forestry reduce emissions by 8.1%</p>
                 <p>Total emissions by sector, Jan-March 2022</p>
                 <p>Source: <a href="https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022" target="_blank" >Department of Climate Change, Energy, the Environment and Water</a></p>
             </div>
